@@ -1,0 +1,42 @@
+.layout {
+  height: 100vh;
+}
+
+.createButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.sider {
+  padding: 15px;
+  min-width: 300px !important;
+  background: #252526 !important;
+}
+
+.divider {
+  border-color: white;
+}
+
+.contentContainer {
+  position: relative;
+}
+
+.content {
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.treeList {
+  width: 100% !important;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
